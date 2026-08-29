@@ -57,7 +57,7 @@ export const Navbar = () => {
         </div>
 
         {/* mobile nav */}
-        // cmetento o button dentro de uma div para adicionar o ThemeToggle
+         {/*  // cmetento o button dentro de uma div para adicionar o ThemeToggle */}
         <div className="flex items-center gap-2 md:hidden">
             <ThemeToggle /> 
           <button
