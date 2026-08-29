@@ -17,7 +17,7 @@ export const Navbar = () =>{
 
     useEffect(() =>{
         const handleScroll = () => {
-            setIsScrolled(window.screenY > 10)
+            setIsScrolled(window.scrollY > 10)
         }
 
         window.addEventListener("scroll", handleScroll)
@@ -57,7 +57,7 @@ export const Navbar = () =>{
                 className="md:hidden p-2 text-foreground z-50"
                 aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
             >
-                {isMenuOpen ? <X siz={24} /> : <Menu size={24}/>}
+                {isMenuOpen ? <X size={24} /> : <Menu size={24}/>}
             </button>
 
             <div className={cn(
