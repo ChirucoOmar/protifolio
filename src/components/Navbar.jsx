@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> Omar </span>{" "}
+            <span className="text-glow text-foreground"> Omar </span>
             Portfolio
           </span>
         </a>
@@ -60,7 +60,7 @@ export const Navbar = () => {
           className="md:hidden p-2 text-foreground z-50"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         <div
