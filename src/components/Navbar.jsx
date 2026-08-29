@@ -2,6 +2,7 @@ import { href } from "react-router-dom";
 import {cn} from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
     {name: 'Home', href: "#hero"},
@@ -51,6 +52,7 @@ export const Navbar = () =>{
             </div>
 
             {/* Mobile version Nav*/}
+            <ThemeToggle />
 
             <button 
                 onClick={()=> setIsMenuOpen((prev)=> !prev)} 
